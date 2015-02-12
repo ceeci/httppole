@@ -1,0 +1,26 @@
+{
+  "name": "httppole",
+  "description": "",
+  "version": "0.0.0",
+  "author": "Blair Anderson <blair81@gmail.com>",
+  "contributors": [
+    "troy anderson <troy@repairshopr.com>"
+  ],
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/blairanderson/httppole.git"
+  },
+  "main": "httppole.js",
+  "devDependencies": {
+    "body-parser": "^1.11.0",
+    "chai": "*",
+    "express": "^4.11.2",
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha --no-colors --reporter spec"
+  },
+  "dependencies": {
+    "superagent": "^0.21.0"
+  }
+}
