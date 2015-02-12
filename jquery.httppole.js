@@ -2,7 +2,7 @@ function HTTPPole(){
     this.endpoint = "localhost:3000";
 }
 
-HTTPPole.prototype.endpoint = function(endpoint){
+HTTPPole.prototype.setEndpoint = function(endpoint){
   this.endpoint = endpoint;
 };
 

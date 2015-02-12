@@ -21,7 +21,19 @@ client.weather('98034', callback);
 //  => callback on screen update error/success
 ```
 
-## API
+## jQuery
+
+> include jquery.httppole.js
+
+**add your endpoint**
+
+```javascript
+$.httppole.setEndpoint("localhost:3000")
+$.httppole.weather("98034", callback);
+
+```
+
+## Node
 
 **Requirement:** client requires an endpoint.
 **An error will be thrown if it doesn't exist**
