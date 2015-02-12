@@ -33,7 +33,7 @@ expect(function(){
 
 ```
 
-To send a message:
+### /message
 
 
 ```javascript
@@ -55,7 +55,7 @@ client.message(screenMessage, screenLine, function(error, success){
 
 ```
 
-It can show some weather on the pole:
+### /weather/:query
 
 
 ```javascript
