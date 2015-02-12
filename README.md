@@ -1,7 +1,7 @@
 # httppole
 
 
-## Installation
+## Installation && Quickstart
 
 Install with npm:
 
@@ -9,12 +9,23 @@ Install with npm:
 npm install --save git+ssh://git@github.com/blairanderson/httppole.git
 ```
 
+```javascript
+var httppole = require('httppole');
+
+var client = httppole.createClient({
+  endpoint: 'localhost:4000'
+});
+
+client.weather('98034', callback);
+
+```
 
 ## API
 
 ### httppole
 
-This client requires the endpoint of your edison pole, an error will be thrown if it doesn't exist:
+**Requirement:** client requires an endpoint. 
+**An error will be thrown if it doesn't exist**
 
 ```javascript
 expect(function(){
