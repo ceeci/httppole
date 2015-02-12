@@ -1,0 +1,26 @@
+{
+  "name": "httppole",
+  "main": "jquery.httppole.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/blairanderson/httppole",
+  "authors": [
+    "Blair Anderson <blair@repairshopr.com>"
+  ],
+  "description": "put stuff on your edison screen",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "jquery",
+    "edison"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
