@@ -13,18 +13,17 @@ npm install --save git+ssh://git@github.com/blairanderson/httppole.git
 var httppole = require('httppole');
 
 var client = httppole.createClient({
-  endpoint: 'localhost:4000'
+  endpoint: 'localhost:4000' // endpoint of your edison screen
 });
 
 client.weather('98034', callback);
-
+//=> screen updated with forecast!!!
+//  => callback on screen update error/success
 ```
 
 ## API
 
-### httppole
-
-**Requirement:** client requires an endpoint. 
+**Requirement:** client requires an endpoint.
 **An error will be thrown if it doesn't exist**
 
 ```javascript
